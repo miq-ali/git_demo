@@ -1,0 +1,21 @@
+********************
+    GIT COMMANDS & WORKING
+********************
+
+ Remote -> files/folders on GitHub & local -> our laptop (current machine working on)
+
+ #1 Clone command - Used to clone repositories from gitHub 
+            syntax - { git clone <link> }
+
+ #2 Status command - Shows if the code is upto date or if there is some files ready to commit
+            syntax - { git status }
+
+                   - M -> Modidied
+                   - U -> Untracked (unknown to git)
+                   - A -> Staged (file ready to commit)
+
+ #3 Now to change the file on repositories. It's a 2 step process
+                   1) Add -> Ready stage before the final change
+                             syntax - { git add <file> }
+                   2) Commit -> Recorded change
+                             syntax - { git commit -m "message" }
