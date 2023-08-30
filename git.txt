@@ -25,3 +25,10 @@
                                ^    ^
                                |    |
                              repo  branch
+
+ #5 git init command is used to add folder to git repo {which is created on the net}
+ #6 git remote add origin <link>
+ #7 git remote -v   (to verify remote)
+ #8 git branch      (to check branch )
+ #9 git branch -M main  (to change name )
+ #10 git push -u origin main (-u to set the directory as default so dont need to type origin main)
