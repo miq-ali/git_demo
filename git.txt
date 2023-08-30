@@ -19,3 +19,9 @@
                              syntax - { git add <file> }
                    2) Commit -> Recorded change
                              syntax - { git commit -m "message" }
+
+ #4 Now to push these changes on online remote platform we need to apply the *PUSH COMMAND*
+                   git push origin main 
+                               ^    ^
+                               |    |
+                             repo  branch
